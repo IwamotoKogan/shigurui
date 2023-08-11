@@ -49,12 +49,12 @@ orderButton.addEventListener('click', function () {
         <p>Unesite vaše podatke i potvrdite narudžbinu:</p>
          <p>Dimenzije elementa: ${height} x ${width} x ${depth}</p>
         <p>Cena elementa: ${price} evra</p>
-        <form id="order-form">
+        <form action="https://formsubmit.co/cofy1995@gmail.com" method="POST">
             <input type="hidden" name="height" value="${height}">
             <input type="hidden" name="width" value="${width}">
             <input type="hidden" name="depth" value="${depth}">
             <input type="hidden" name="price" value="${price}">
-            <input type="hidden" name="_next" value="https://filip-jovetic.github.io/thanks.html">
+            <input type="hidden" name="_next" value="https://https://iwamotokogan.github.io/shigurui/thanks.html">
             <input type="text" name="ime" placeholder="Ime" required>
             <input type="text" name="prezime" placeholder="Prezime" required>
             <input type="email" name="email" placeholder="Email Adresa" required>
