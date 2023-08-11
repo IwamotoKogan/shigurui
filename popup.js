@@ -54,7 +54,7 @@ orderButton.addEventListener('click', function () {
             <input type="hidden" name="width" value="${width}">
             <input type="hidden" name="depth" value="${depth}">
             <input type="hidden" name="price" value="${price}">
-            <input type="hidden" name="_next" value="https://https://iwamotokogan.github.io/shigurui/thanks.html">
+            <input type="hidden" name="_next" value="https://https://iwamotokogan.github.io/thanks.html">
             <input type="text" name="ime" placeholder="Ime" required>
             <input type="text" name="prezime" placeholder="Prezime" required>
             <input type="email" name="email" placeholder="Email Adresa" required>
